@@ -18,33 +18,28 @@ const Navbar = () => {
         </Link>
       </div>
       <ul className='hidden md:flex'>
-        <li>
-            <Link to="home" smooth={true} duration={500}>
+        <li className=''>
+            <Link to="home" smooth={true} duration={500} activeClass='active' spy='true' className='hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-[#06b6d4] before:absolute before:left-0 before:bottom-0 pb-2'>
               Home
             </Link>
         </li>
         <li>
-            <Link to="about" smooth={true} duration={500}>
+            <Link to="about" smooth={true} duration={500} activeClass='active' spy='true' className='hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-[#06b6d4] before:absolute before:left-0 before:bottom-0 pb-2'>
               About
             </Link>
         </li>
         <li>
-            <Link to="experience" smooth={true} duration={500}>
-              Experience
-            </Link>
-        </li>
-        <li>
-            <Link to="skills" smooth={true} duration={500}>
+            <Link to="skills" smooth={true} duration={500} activeClass='active' spy='true' className='hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-[#06b6d4] before:absolute before:left-0 before:bottom-0 pb-2'>
               Skills
             </Link>
         </li>
         <li>
-           <Link to="work" smooth={true} duration={500}>
+           <Link to="work" smooth={true} duration={500} activeClass='active' spy='true' className='hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-[#06b6d4] before:absolute before:left-0 before:bottom-0 pb-2'>
               Work
             </Link>
         </li>
         <li>
-            <Link to="contact" smooth={true} duration={500}>
+            <Link to="contact" smooth={true} duration={500} activeClass='active' spy='true' className='hover:before:scale-x-100 hover:before:origin-left relative before:w-full before:h-1 before:origin-right before:transition-transform before:duration-300 before:scale-x-0 before:bg-[#06b6d4] before:absolute before:left-0 before:bottom-0 pb-2'>
               Contact
             </Link>
         </li>

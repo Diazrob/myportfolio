@@ -2,13 +2,13 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-screen p-4 flex justify-center items-center'>
+    <div name='contact' className='w-full h-screen p-4 mt-12 flex justify-center items-center min-h-[1000px]'>
 
       <form action="https://getform.io/f/55477593-d8d7-4211-af69-4ea22bfb2088" method='POST' className='flex flex-col max-w-[600px] w-full'>
         <div className='pb-2 text-gray-300'>
-          <h2 className='text-4xl border-b-4 inline border-pink-500'>Contact</h2>
+          <h2 className='text-4xl border-b-4 inline border-[#06b6d4]'>Contact</h2>
           <p className='py-4'>
-            Submit the form below or shoot me an email - myemail@gmail.com
+            Submit the form below or shoot me an email - robeeloudiaz@gmail.com
           </p>
         </div>
         <input className='p-2 bg-[#ccd6f6]' type="text" placeholder='Name' name='name' />

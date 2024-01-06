@@ -16,12 +16,18 @@
 
 }
 
+.active {
+  font-weight: bold;
+  color: aqua;
+}
+
 .content-div {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   height: 250px;
 }
+
 
 .content-div:hover {
 background-image: linear-gradient(
@@ -30,3 +36,14 @@ background-image: linear-gradient(
     hsla(242, 74%, 61%, 0.8)
   )!important;
 } 
+
+.work-button {
+  background: linear-gradient(to left, #374151 50%, #2e1065 50%) right;
+    background-size: 200%;
+    transition: .4s ease-out
+    !important
+}
+.work-button:hover {
+  background-position: left;
+  border-color: #2e1065;
+}
