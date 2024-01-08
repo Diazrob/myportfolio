@@ -23,8 +23,8 @@
 
 .content-div {
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
+  background-position: top;
   height: 250px;
 }
 

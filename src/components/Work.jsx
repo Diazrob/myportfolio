@@ -15,20 +15,57 @@ const Work = () => {
               Work
             </h2>
             <p className='pt-4'>
-              Check out some of my projects.
+              Browse some of my projects.
             </p>
           </div>
 
           <div className='grid md:grid-cols-2 gap-8'>
             {/* Grid item */}
-            <div style={{backgroundImage: `url(${WorkImg})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div style={{backgroundImage: `url(${WorkImg})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative'>
 
               {/* Hover Effects */}
-              <div  className='opacity-0 group-hover:opacity-100 text-center'>
+              <div  className='opacity-0 group-hover:opacity-100 text-center flex flex-col absolute top-2 bottom-2'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
                   React JS Application
                 </span>
-                <div className='pt-8 text-center'>
+      
+                  <ul className='flex items-center justify-center py-1 text-sm'>
+                    <li className='shadow-md cursor-default px-2 mx-1 my-1 bg-slate-600 rounded-sm '>HTML</li>
+                    <li className='shadow-md cursor-default px-2 mx-1 my-1 bg-slate-600 rounded-sm'>CSS</li>
+                    <li className='shadow-md cursor-default px-2 mx-1 my-1 bg-slate-600 rounded-sm'>Javascript</li>
+                  </ul>
+
+                <p className='text-[13px] text-gray-100 py-2 max-w-96'>
+                  This is a sample description of the project. The quick brown fox jumps over the laZY Dog. This is practicum management web application to track student's timesheet, evaluation and forms.
+                </p>
+                <div className='pt-4 text-center'>
+                  <a href="/">
+                    <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-md'>
+                      Demo
+                    </button>
+                  </a>
+                  <a href="/">
+                    <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-md'>
+                      Code
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+            {/* End of Grid item */}
+            {/* Grid item */}
+            <div style={{backgroundImage: `url(${RealEstate})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative'>
+
+              {/* Hover Effects */}
+              <div  className='opacity-0 group-hover:opacity-100 text-center absolute'>
+                <span className='text-2xl font-bold text-white tracking-wider'>
+                  React JS Application
+                </span>
+                <p className='text-1xl text-gray-100 py-2 max-w-96'>
+                  This is a sample description of the project. The quick brown fox jumps over the laZY Dog. This is practicum management web application to track student's timesheet, evaluation and forms.
+                </p>
+                <div className='pt-4 text-center'>
                   <a href="/">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg'>
                       Demo
@@ -45,14 +82,17 @@ const Work = () => {
             </div>
             {/* End of Grid item */}
             {/* Grid item */}
-            <div style={{backgroundImage: `url(${RealEstate})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div style={{backgroundImage: `url(${WorkImg})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative'>
 
               {/* Hover Effects */}
-              <div  className='opacity-0 group-hover:opacity-100 text-center'>
+              <div  className='opacity-0 group-hover:opacity-100 text-center absolute'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  React JS Application
+                  Games Tracker
                 </span>
-                <div className='pt-8 text-center'>
+                <p className='text-1xl text-gray-100 py-2 max-w-96'>
+                  This is a sample description of the project. The quick brown fox jumps over the laZY Dog. This is practicum management web application to track student's timesheet, evaluation and forms.
+                </p>
+                <div className='pt-4 text-center'>
                   <a href="/">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg'>
                       Demo
@@ -69,14 +109,17 @@ const Work = () => {
             </div>
             {/* End of Grid item */}
             {/* Grid item */}
-            <div style={{backgroundImage: `url(${WorkImg})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div style={{backgroundImage: `url(${Practicum})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative'>
 
               {/* Hover Effects */}
-              <div  className='opacity-0 group-hover:opacity-100 text-center'>
+              <div  className='opacity-0 group-hover:opacity-100 text-center absolute'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  React JS Application
+                  CIT Practicum Management
                 </span>
-                <div className='pt-8 text-center'>
+                <p className='text-1xl text-gray-100 py-2 max-w-96'>
+                  This is a sample description of the project. The quick brown fox jumps over the laZY Dog. This is practicum management web application to track student's timesheet, evaluation and forms.
+                </p>
+                <div className='pt-4 text-center'>
                   <a href="/">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg'>
                       Demo
@@ -93,14 +136,17 @@ const Work = () => {
             </div>
             {/* End of Grid item */}
             {/* Grid item */}
-            <div style={{backgroundImage: `url(${Practicum})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div style={{backgroundImage: `url(${Dfd})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative'>
 
               {/* Hover Effects */}
-              <div  className='opacity-0 group-hover:opacity-100 text-center'>
+              <div  className='opacity-0 group-hover:opacity-100 text-center absolute'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  React JS Application
+                  Entity Relationship Diagram
                 </span>
-                <div className='pt-8 text-center'>
+                <p className='text-1xl text-gray-100 py-2 max-w-96'>
+                  This is a sample description of the project. The quick brown fox jumps over the laZY Dog. This is practicum management web application to track student's timesheet, evaluation and forms.
+                </p>
+                <div className='pt-4 text-center'>
                   <a href="/">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg'>
                       Demo
@@ -117,38 +163,17 @@ const Work = () => {
             </div>
             {/* End of Grid item */}
             {/* Grid item */}
-            <div style={{backgroundImage: `url(${Dfd})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div style={{backgroundImage: `url(${Erd})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative'>
 
               {/* Hover Effects */}
-              <div  className='opacity-0 group-hover:opacity-100 text-center'>
+              <div  className='opacity-0 group-hover:opacity-100 text-center absolute'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  React JS Application
+                  Entity Relationship Diagram
                 </span>
-                <div className='pt-8 text-center'>
-                  <a href="/">
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg'>
-                      Demo
-                    </button>
-                  </a>
-                  <a href="/">
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg'>
-                      Code
-                    </button>
-                  </a>
-                </div>
-              </div>
-
-            </div>
-            {/* End of Grid item */}
-            {/* Grid item */}
-            <div style={{backgroundImage: `url(${Erd})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-              {/* Hover Effects */}
-              <div  className='opacity-0 group-hover:opacity-100 text-center'>
-                <span className='text-2xl font-bold text-white tracking-wider'>
-                  React JS Application
-                </span>
-                <div className='pt-8 text-center'>
+                <p className='text-1xl text-gray-100 py-2 max-w-96'>
+                  This is a sample description of the project. The quick brown fox jumps over the laZY Dog. This is practicum management web application to track student's timesheet, evaluation and forms.
+                </p>
+                <div className='pt-4 text-center'>
                   <a href="/">
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font bold text-lg'>
                       Demo
@@ -172,3 +197,5 @@ const Work = () => {
 }
 
 export default Work
+
+
