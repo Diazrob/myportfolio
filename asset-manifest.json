@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Rob/static/css/main.71b61dfe.css",
+    "main.js": "/Rob/static/js/main.f68b617e.js",
+    "static/media/realestate.jpg": "/Rob/static/media/realestate.44fd19f4c6872731149c.jpg",
+    "static/media/Practicum.png": "/Rob/static/media/Practicum.cddbaa27142fb98eef92.png",
+    "static/media/ERD.png": "/Rob/static/media/ERD.2e34ff423a85c93dbaf6.png",
+    "static/media/DFD.png": "/Rob/static/media/DFD.72988834fe62cd8fc634.png",
+    "static/media/workImg.jpeg": "/Rob/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
+    "static/media/react.png": "/Rob/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/github.png": "/Rob/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/Rob/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/Rob/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/Rob/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/Logo.png": "/Rob/static/media/Logo.21b1107e071c418967a6.png",
+    "static/media/javascript.png": "/Rob/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/Rob/index.html",
+    "main.71b61dfe.css.map": "/Rob/static/css/main.71b61dfe.css.map",
+    "main.f68b617e.js.map": "/Rob/static/js/main.f68b617e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71b61dfe.css",
+    "static/js/main.f68b617e.js"
+  ]
+}
