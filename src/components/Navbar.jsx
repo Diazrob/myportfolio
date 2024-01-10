@@ -44,12 +44,12 @@ const Navbar = () => {
             </Link>
         </li>
       </ul>
-      <div onClick={handleClick} className='flex md:hidden z-10 hover:cursor-pointer'>
+      <div onClick={handleClick} className='flex md:hidden z-30 hover:cursor-pointer'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
       {/* mobile menu */}
-      <div className={!nav ? 'hidden' : 'absolute top-0 left-0 flex md:hidden items-center justify-center w-full h-screen bg-white dark:bg-slate-900'}>
+      <div className={!nav ? 'hidden' : 'absolute top-0 left-0 flex md:hidden items-center justify-center w-full h-screen bg-white dark:bg-slate-900 z-20'}>
       <ul>
         <li className='py-4 text-4xl'>
             <Link onClick={handleClick}  to="home" smooth={true} duration={500}>
@@ -61,11 +61,7 @@ const Navbar = () => {
               About
             </Link>
         </li>
-        <li className='py-4 text-4xl'>
-            <Link onClick={handleClick}  to="experience" smooth={true} duration={500}>
-              Experience
-            </Link>
-        </li>
+
         <li className='py-4 text-4xl'>
             <Link onClick={handleClick}  to="skills" smooth={true} duration={500}>
               Skills

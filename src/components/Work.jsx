@@ -21,10 +21,10 @@ const Work = () => {
 
           <div className='grid md:grid-cols-2 gap-8'>
             {/* Grid item */}
-            <div style={{backgroundImage: `url(${WorkImg})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative'>
+            <div style={{backgroundImage: `url(${WorkImg})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
 
               {/* Hover Effects */}
-              <div  className='opacity-0 group-hover:opacity-100 text-center flex flex-col absolute top-2 bottom-2'>
+              <div  className='opacity-0 group-hover:opacity-100 text-center flex flex-col top-2 bottom-2'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
                   React JS Application
                 </span>
@@ -55,10 +55,10 @@ const Work = () => {
             </div>
             {/* End of Grid item */}
             {/* Grid item */}
-            <div style={{backgroundImage: `url(${RealEstate})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative'>
+            <div style={{backgroundImage: `url(${RealEstate})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
 
               {/* Hover Effects */}
-              <div  className='opacity-0 group-hover:opacity-100 text-center absolute'>
+              <div  className='opacity-0 group-hover:opacity-100 text-center '>
                 <span className='text-2xl font-bold text-white tracking-wider'>
                   React JS Application
                 </span>
@@ -82,10 +82,10 @@ const Work = () => {
             </div>
             {/* End of Grid item */}
             {/* Grid item */}
-            <div style={{backgroundImage: `url(${WorkImg})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative'>
+            <div style={{backgroundImage: `url(${WorkImg})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
               {/* Hover Effects */}
-              <div  className='opacity-0 group-hover:opacity-100 text-center absolute'>
+              <div  className='opacity-0 group-hover:opacity-100 text-center'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
                   Games Tracker
                 </span>
@@ -109,10 +109,10 @@ const Work = () => {
             </div>
             {/* End of Grid item */}
             {/* Grid item */}
-            <div style={{backgroundImage: `url(${Practicum})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative'>
+            <div style={{backgroundImage: `url(${Practicum})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
               {/* Hover Effects */}
-              <div  className='opacity-0 group-hover:opacity-100 text-center absolute'>
+              <div  className='opacity-0 group-hover:opacity-100 text-center '>
                 <span className='text-2xl font-bold text-white tracking-wider'>
                   CIT Practicum Management
                 </span>
@@ -136,10 +136,10 @@ const Work = () => {
             </div>
             {/* End of Grid item */}
             {/* Grid item */}
-            <div style={{backgroundImage: `url(${Dfd})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative'>
+            <div style={{backgroundImage: `url(${Dfd})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
               {/* Hover Effects */}
-              <div  className='opacity-0 group-hover:opacity-100 text-center absolute'>
+              <div  className='opacity-0 group-hover:opacity-100 text-center'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
                   Entity Relationship Diagram
                 </span>
@@ -163,10 +163,10 @@ const Work = () => {
             </div>
             {/* End of Grid item */}
             {/* Grid item */}
-            <div style={{backgroundImage: `url(${Erd})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div relative'>
+            <div style={{backgroundImage: `url(${Erd})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
 
               {/* Hover Effects */}
-              <div  className='opacity-0 group-hover:opacity-100 text-center absolute'>
+              <div  className='opacity-0 group-hover:opacity-100 text-center '>
                 <span className='text-2xl font-bold text-white tracking-wider'>
                   Entity Relationship Diagram
                 </span>
