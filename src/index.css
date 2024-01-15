@@ -7,7 +7,7 @@
 @layer base {
   body {
     @apply font-[Raleway];
-    @apply dark:bg-slate-900;
+    @apply bg-gradient-to-r from-slate-500 to-slate-900
   }
   li {
     @apply px-4;
