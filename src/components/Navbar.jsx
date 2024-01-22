@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, {useState} from 'react'
 import Logo from '../assets/Logo.png'
 import {FaBars, FaTimes, FaLinkedin, FaGithub} from 'react-icons/fa'
@@ -90,7 +91,7 @@ const Navbar = () => {
           </li>
           <li className='flex w-[160px] h-[60px] bg-[#333333] ml-[-100px] hover:ml-[-10px] duration-300'>
             <a className='flex justify-between items-center w-full text-gray-300'
-            href="/">
+            href="https://github.com/Diazrob" target='_blank'>
               Github <FaGithub size={30}/>
             </a>
           </li>

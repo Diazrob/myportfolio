@@ -1,10 +1,11 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
 import WorkImg from '../assets/workImg.jpeg'
 import RealEstate from '../assets/realestate.jpg'
+import phTours from '../assets/phTours.png'
 import Dfd from '../assets/DFD.png'
 import Erd from '../assets/ERD.png'
 import Practicum from '../assets/Practicum.png'
-import Typed from 'react-typed'
 
 const Work = () => {
 
@@ -26,17 +27,17 @@ const Work = () => {
               {/* Hover Effects */}
               <div  className='opacity-0 group-hover:opacity-100 text-center flex flex-col top-1 bottom-1 mt-[-10px]'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  Ph
+                  Game Simulator
                 </span>
       
                   <ul className='flex items-center justify-center py-1 text-sm'>
-                    <li className='shadow-md cursor-default px-2 mx-1 my-1 bg-slate-600 rounded-sm'>HTML</li>
-                    <li className='shadow-md cursor-default px-2 mx-1 my-1 bg-slate-600 rounded-sm'>CSS</li>
-                    <li className='shadow-md cursor-default px-2 mx-1 my-1 bg-slate-600 rounded-sm'>Javascript</li>
+                    <li className='shadow-md cursor-default px-2 mx-1 my-1 bg-slate-600 rounded-sm'>C#</li>
+                    <li className='shadow-md cursor-default px-2 mx-1 my-1 bg-slate-600 rounded-sm'>.Net Core</li>
+                    <li className='shadow-md cursor-default px-2 mx-1 my-1 bg-slate-600 rounded-sm'>Console App</li>
                   </ul>
 
                 <p className='text-[13px] text-gray-100 py-2 max-w-96'>
-                  This is a sample description of the project. The quick brown fox jumps over the laZY Dog. This is practicum management web application to track student's timesheet, evaluation and forms.
+                  Various warrior simulation
                 </p>
                 <div className='pt-4 text-center'>
                   <a href="/">
@@ -44,7 +45,7 @@ const Work = () => {
                       Demo
                     </button>
                     </a>
-                  <a href="/">
+                  <a href="https://github.com/Diazrob/Game-Simulator" target="_blank">
                     <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-md'>
                       Code
                     </button>
@@ -55,17 +56,17 @@ const Work = () => {
             </div>
             {/* End of Grid item */}
             {/* Grid item */}
-            <div style={{backgroundImage: `url(${RealEstate})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
+            <div style={{backgroundImage: `url(${phTours})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
 
               {/* Hover Effects */}
               <div  className='opacity-0 group-hover:opacity-100 text-center flex flex-col top-1 bottom-1 mt-[-10px]'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  Ph
+                  Ph Tours
                 </span>
       
                   <ul className='flex items-center justify-center py-1 text-sm'>
-                    <li className='shadow-md cursor-default px-2 mx-1 my-1 bg-slate-600 rounded-sm'>HTML</li>
-                    <li className='shadow-md cursor-default px-2 mx-1 my-1 bg-slate-600 rounded-sm'>CSS</li>
+                    <li className='shadow-md cursor-default px-2 mx-1 my-1 bg-slate-600 rounded-sm'>React</li>
+                    <li className='shadow-md cursor-default px-2 mx-1 my-1 bg-slate-600 rounded-sm'>Tailwind CSS</li>
                     <li className='shadow-md cursor-default px-2 mx-1 my-1 bg-slate-600 rounded-sm'>Javascript</li>
                   </ul>
 
@@ -73,12 +74,12 @@ const Work = () => {
                   This is a sample description of the project. The quick brown fox jumps over the laZY Dog. This is practicum management web application to track student's timesheet, evaluation and forms.
                 </p>
                 <div className='pt-4 text-center'>
-                  <a href="/">
+                  <a href="https://diazrobee.github.io/ph-destinations/" target="_blank">
                     <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-md'>
                       Demo
                     </button>
                     </a>
-                  <a href="/">
+                  <a href="https://github.com/DiazRobee/ph-destinations" target="_blank">
                     <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-md'>
                       Code
                     </button>
@@ -112,7 +113,7 @@ const Work = () => {
                       Demo
                     </button>
                     </a>
-                  <a href="/">
+                  <a href="https://github.com/Diazrob/TournamentTracker" target="_blank">
                     <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-md'>
                       Code
                     </button>
@@ -162,15 +163,16 @@ const Work = () => {
               {/* Hover Effects */}
               <div  className='opacity-0 group-hover:opacity-100 text-center flex flex-col top-1 bottom-1 mt-[-10px]'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  Data Flow Diagram
+                  Grid Art
                 </span>
       
                   <ul className='flex items-center justify-center py-1 text-sm'>
-                    <li className='shadow-md cursor-default px-2 mx-1 my-1 bg-slate-600 rounded-sm'>MS Visio</li>
+                    <li className='shadow-md cursor-default px-2 mx-1 my-1 bg-slate-600 rounded-sm'>C++</li>
+                    <li className='shadow-md cursor-default px-2 mx-1 my-1 bg-slate-600 rounded-sm'>Console App</li>
                   </ul>
 
                 <p className='text-[13px] text-gray-100 py-2 max-w-96'>
-                  Document that illustrates how data moves within a system. Created for our System and Analysis and Design Project. 
+                  C++ snippet Document that illustrates how data moves within a system. Created for our System and Analysis and Design Project. 
                 </p>
                 <div className='pt-4 text-center'>
                   <a href="/">
@@ -178,7 +180,7 @@ const Work = () => {
                       Demo
                     </button>
                     </a>
-                  <a href="/">
+                  <a href="https://github.com/Diazrob/grid-art" target='_blank'>
                     <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-md'>
                       Code
                     </button>
