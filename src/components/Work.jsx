@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react'
-import WorkImg from '../assets/workImg.jpeg'
-import RealEstate from '../assets/realestate.jpg'
+import gameSimulator from '../assets/GameSimulator.png'
+import gameTracker from '../assets/GameTracker.png'
 import phTours from '../assets/phTours.png'
 import Dfd from '../assets/DFD.png'
 import Erd from '../assets/ERD.png'
@@ -22,7 +22,7 @@ const Work = () => {
 
           <div className='grid md:grid-cols-2 gap-8'>
             {/* Grid item */}
-            <div style={{backgroundImage: `url(${WorkImg})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
+            <div style={{backgroundImage: `url(${gameSimulator})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
 
               {/* Hover Effects */}
               <div  className='opacity-0 group-hover:opacity-100 text-center flex flex-col top-1 bottom-1 mt-[-10px]'>
@@ -40,14 +40,9 @@ const Work = () => {
                   Various warrior simulation
                 </p>
                 <div className='pt-4 text-center'>
-                  <a href="/">
-                    <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-md'>
-                      Demo
-                    </button>
-                    </a>
                   <a href="https://github.com/Diazrob/Game-Simulator" target="_blank">
                     <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-md'>
-                      Code
+                      Demo & Code
                     </button>
                   </a>
                 </div>
@@ -90,7 +85,7 @@ const Work = () => {
             </div>
             {/* End of Grid item */}
             {/* Grid item */}
-            <div style={{backgroundImage: `url(${WorkImg})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div style={{backgroundImage: `url(${gameTracker})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
               {/* Hover Effects */}
               <div  className='opacity-0 group-hover:opacity-100 text-center flex flex-col top-1 bottom-1 mt-[-10px]'>
@@ -108,16 +103,11 @@ const Work = () => {
                   MS Windows Forms application used to track game rounds, players, points and winners. Rounds are determined based on the number of players added and currently auto-generates a random champion.
                 </p>
                 <div className='pt-4 text-center'>
-                  <a href="/">
-                    <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-md'>
-                      Demo
-                    </button>
+                  <a href="https://github.com/Diazrob/Game-Simulator" target="_blank">
+                      <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-md'>
+                        Demo & Code
+                      </button>
                     </a>
-                  <a href="https://github.com/Diazrob/TournamentTracker" target="_blank">
-                    <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-md'>
-                      Code
-                    </button>
-                  </a>
                 </div>
               </div>
 
