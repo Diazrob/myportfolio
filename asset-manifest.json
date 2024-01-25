@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.c2a4bc26.css",
-    "main.js": "/myportfolio/static/js/main.88af6298.js",
+    "main.js": "/myportfolio/static/js/main.094db2b2.js",
     "static/media/rectangle.mp4": "/myportfolio/static/media/rectangle.30befca0a9c79e4e072e.mp4",
     "static/media/phTours.png": "/myportfolio/static/media/phTours.1645e14aef56d4f21da2.png",
-    "static/media/realestate.jpg": "/myportfolio/static/media/realestate.44fd19f4c6872731149c.jpg",
     "static/media/Practicum.png": "/myportfolio/static/media/Practicum.cddbaa27142fb98eef92.png",
     "static/media/ERD.png": "/myportfolio/static/media/ERD.4d843c989b0a21664009.png",
     "static/media/DFD.png": "/myportfolio/static/media/DFD.72988834fe62cd8fc634.png",
-    "static/media/workImg.jpeg": "/myportfolio/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
     "static/media/react.png": "/myportfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/GameSimulator.png": "/myportfolio/static/media/GameSimulator.f5893c6726163ea47b25.png",
     "static/media/github.png": "/myportfolio/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/myportfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/myportfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/myportfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/GameTracker.png": "/myportfolio/static/media/GameTracker.d8c123cb2c6ce24a3cd4.png",
     "static/media/Logo.png": "/myportfolio/static/media/Logo.21b1107e071c418967a6.png",
     "static/media/javascript.png": "/myportfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/myportfolio/index.html",
     "main.c2a4bc26.css.map": "/myportfolio/static/css/main.c2a4bc26.css.map",
-    "main.88af6298.js.map": "/myportfolio/static/js/main.88af6298.js.map"
+    "main.094db2b2.js.map": "/myportfolio/static/js/main.094db2b2.js.map"
   },
   "entrypoints": [
     "static/css/main.c2a4bc26.css",
-    "static/js/main.88af6298.js"
+    "static/js/main.094db2b2.js"
   ]
 }
