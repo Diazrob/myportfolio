@@ -1,10 +1,11 @@
 /* eslint-disable react/jsx-no-target-blank */
-import React, {useState} from 'react'
-import Logo from '../assets/Logo.png'
-import {FaBars, FaTimes, FaLinkedin, FaGithub} from 'react-icons/fa'
-import {HiOutlineMail} from 'react-icons/hi'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
-import {Link} from 'react-scroll'
+import React, {useState} from 'react';
+import Logo from '../assets/Logo.png';
+import {FaBars, FaTimes, FaLinkedin, FaGithub} from 'react-icons/fa';
+import {HiOutlineMail} from 'react-icons/hi';
+import {BsFillPersonLinesFill} from 'react-icons/bs';
+import {Link} from 'react-scroll';
+import cv from '../pages/CV.pdf';
 
 
 const Navbar = () => {
@@ -102,7 +103,7 @@ const Navbar = () => {
           </li>
           <li className='flex w-[160px] h-[60px] bg-[#565f69] ml-[-100px] hover:ml-[-10px] duration-300'>
             <a className='flex justify-between items-center w-full text-gray-300'
-            href="/">
+            href={cv} target='_blank'>
               Resume <BsFillPersonLinesFill size={30}/>
             </a>
           </li>
