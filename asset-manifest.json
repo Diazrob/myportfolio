@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.c2a4bc26.css",
-    "main.js": "/myportfolio/static/js/main.c1ccc7a4.js",
+    "main.css": "/myportfolio/static/css/main.d6335338.css",
+    "main.js": "/myportfolio/static/js/main.47247451.js",
     "static/media/rectangle.mp4": "/myportfolio/static/media/rectangle.30befca0a9c79e4e072e.mp4",
     "static/media/phTours.png": "/myportfolio/static/media/phTours.1645e14aef56d4f21da2.png",
     "static/media/Practicum.png": "/myportfolio/static/media/Practicum.cddbaa27142fb98eef92.png",
     "static/media/ERD.png": "/myportfolio/static/media/ERD.4d843c989b0a21664009.png",
-    "static/media/DFD.png": "/myportfolio/static/media/DFD.72988834fe62cd8fc634.png",
     "static/media/CV.pdf": "/myportfolio/static/media/CV.4c4294317b769a92bbf8.pdf",
     "static/media/react.png": "/myportfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/GameSimulator.png": "/myportfolio/static/media/GameSimulator.f5893c6726163ea47b25.png",
@@ -19,11 +18,11 @@
     "static/media/Logo.png": "/myportfolio/static/media/Logo.21b1107e071c418967a6.png",
     "static/media/javascript.png": "/myportfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/myportfolio/index.html",
-    "main.c2a4bc26.css.map": "/myportfolio/static/css/main.c2a4bc26.css.map",
-    "main.c1ccc7a4.js.map": "/myportfolio/static/js/main.c1ccc7a4.js.map"
+    "main.d6335338.css.map": "/myportfolio/static/css/main.d6335338.css.map",
+    "main.47247451.js.map": "/myportfolio/static/js/main.47247451.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2a4bc26.css",
-    "static/js/main.c1ccc7a4.js"
+    "static/css/main.d6335338.css",
+    "static/js/main.47247451.js"
   ]
 }
