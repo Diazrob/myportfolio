@@ -6,6 +6,7 @@ import phTours from '../assets/phTours.png'
 import Dfd from '../assets/DFD.png'
 import Erd from '../assets/ERD.png'
 import Practicum from '../assets/Practicum.png'
+import grid from '../assets/Bot-position-grid-pic.png'
 
 const Work = () => {
 
@@ -27,7 +28,7 @@ const Work = () => {
               {/* Hover Effects */}
               <div  className='opacity-0 group-hover:opacity-100 text-center flex flex-col top-1 bottom-1 mt-[-10px]'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  Game Simulator
+                  Game-Simulator
                 </span>
       
                   <ul className='flex items-center justify-center py-1 text-sm'>
@@ -37,12 +38,17 @@ const Work = () => {
                   </ul>
 
                 <p className='text-[13px] text-gray-100 py-2 max-w-96'>
-                  Various warrior simulation
+                Console App game simulator using interface where warriors with different abilities and attributes battle until hp is depleted.
                 </p>
                 <div className='pt-4 text-center'>
                   <a href="https://github.com/Diazrob/Game-Simulator" target="_blank">
                     <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-md'>
-                      Demo & Code
+                      Demo
+                    </button>
+                    </a>
+                  <a href="https://github.com/Diazrob/Game-Simulator">
+                    <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-md'>
+                      Code
                     </button>
                   </a>
                 </div>
@@ -66,7 +72,7 @@ const Work = () => {
                   </ul>
 
                 <p className='text-[13px] text-gray-100 py-2 max-w-96'>
-                  This is a sample description of the project. The quick brown fox jumps over the laZY Dog. This is practicum management web application to track student's timesheet, evaluation and forms.
+                  Website project that shows different tourist destinations in the Philippines. Features include selecting different tour packages and date for booking. Created to develop knowledge in frontend development.
                 </p>
                 <div className='pt-4 text-center'>
                   <a href="https://diazrobee.github.io/ph-destinations/" target="_blank">
@@ -103,7 +109,7 @@ const Work = () => {
                   MS Windows Forms application used to track game rounds, players, points and winners. Rounds are determined based on the number of players added and currently auto-generates a random champion.
                 </p>
                 <div className='pt-4 text-center'>
-                  <a href="https://github.com/Diazrob/Game-Simulator" target="_blank">
+                  <a href="https://github.com/Diazrob/TournamentTracker" target="_blank">
                       <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-md'>
                         Demo & Code
                       </button>
@@ -132,6 +138,8 @@ const Work = () => {
                   Website application used to track Practicum of CIT students. Features include sign-in account, timesheet tracking and approval, online evaluation forms, job postings
                 </p>
                 <div className='pt-4 text-center'>
+                  <h2 className='text-center rounded-lg px-2 py-2 m-1 bg-white text-gray-700 font-bold text-md'>In Progress</h2>
+                  {/* buttons commented-out
                   <a href="/">
                     <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-md'>
                       Demo
@@ -142,18 +150,19 @@ const Work = () => {
                       Code
                     </button>
                   </a>
+                   */}
                 </div>
               </div>
 
             </div>
             {/* End of Grid item */}
             {/* Grid item */}
-            <div style={{backgroundImage: `url(${Dfd})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            <div style={{backgroundImage: `url(${grid})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
               {/* Hover Effects */}
               <div  className='opacity-0 group-hover:opacity-100 text-center flex flex-col top-1 bottom-1 mt-[-10px]'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  Grid Art
+                  Bot Position Grid
                 </span>
       
                   <ul className='flex items-center justify-center py-1 text-sm'>
@@ -162,15 +171,15 @@ const Work = () => {
                   </ul>
 
                 <p className='text-[13px] text-gray-100 py-2 max-w-96'>
-                  C++ snippet Document that illustrates how data moves within a system. Created for our System and Analysis and Design Project. 
+                  C++ snippet Document that illustrates how bot moves to a different position within the grid. Implements a Position class as an Abstract Data Type (ADT). Course assignment for C++ class.
                 </p>
                 <div className='pt-4 text-center'>
-                  <a href="/">
+                  <a href="https://github.com/Diazrob/Position-Grid">
                     <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-md'>
                       Demo
                     </button>
                     </a>
-                  <a href="https://github.com/Diazrob/grid-art" target='_blank'>
+                  <a href="https://github.com/Diazrob/Position-Grid" target='_blank'>
                     <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-md'>
                       Code
                     </button>
