@@ -174,7 +174,7 @@ const Work = () => {
                   C++ snippet Document that illustrates how bot moves to a different position within the grid. Implements a Position class as an Abstract Data Type (ADT). Course assignment for C++ class.
                 </p>
                 <div className='pt-4 text-center'>
-                  <a href="https://github.com/Diazrob/Position-Grid">
+                  <a href="https://github.com/Diazrob/Position-Grid" target='_blank'>
                     <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-md'>
                       Demo
                     </button>
