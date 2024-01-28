@@ -3,7 +3,7 @@ import React from 'react'
 import gameSimulator from '../assets/GameSimulator.png'
 import gameTracker from '../assets/GameTracker.png'
 import phTours from '../assets/phTours.png'
-import Erd from '../assets/ERD.png'
+import mobile from '../assets/mobile.jpg'
 import Practicum from '../assets/Practicum.png'
 import grid from '../assets/Bot-position-grid-pic.png'
 
@@ -45,7 +45,7 @@ const Work = () => {
                       Demo
                     </button>
                     </a>
-                  <a href="https://github.com/Diazrob/Game-Simulator">
+                  <a href="https://github.com/Diazrob/Game-Simulator" target='_blank'>
                     <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-md'>
                       Code
                     </button>
@@ -189,28 +189,30 @@ const Work = () => {
             </div>
             {/* End of Grid item */}
             {/* Grid item */}
-            <div style={{backgroundImage: `url(${Erd})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
+            <div style={{backgroundImage: `url(${mobile})`}}  className='hover:scale-110 duration-500 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
 
               {/* Hover Effects */}
               <div  className='opacity-0 group-hover:opacity-100 text-center flex flex-col top-1 bottom-1 mt-[-10px]'>
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  Entity Relationship Diagram
+                  Mad Libs Hall Pass
                 </span>
       
                   <ul className='flex items-center justify-center py-1 text-sm'>
-                    <li className='shadow-md cursor-default px-2 mx-1 my-1 bg-slate-600 rounded-sm'>MS Visio</li>
+                    <li className='shadow-md cursor-default px-2 mx-1 my-1 bg-slate-600 rounded-sm'>React Native</li>
+                    <li className='shadow-md cursor-default px-2 mx-1 my-1 bg-slate-600 rounded-sm'>CSS</li>
+                    <li className='shadow-md cursor-default px-2 mx-1 my-1 bg-slate-600 rounded-sm'>Expo</li>
                   </ul>
 
                 <p className='text-[13px] text-gray-100 py-2 max-w-96'>
-                  This is a visual representation of the data model that shows relationships between entities in database. Used to create initial draft of CIT Practicum Management database.
+                   This is a mobile app that passes data from page 1 to page 2. It also contains links to the MadLibs site. used useLocalSearchParams, Pressable, and hooks.
                 </p>
                 <div className='pt-4 text-center'>
-                  <a href="/">
+                  <a href="https://github.com/Diazrob/A1MadLibs" target='_blank'>
                     <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-md'>
                       Demo
                     </button>
                     </a>
-                  <a href="/">
+                  <a href="https://github.com/Diazrob/A1MadLibs" target='blank'>
                     <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-md'>
                       Code
                     </button>
