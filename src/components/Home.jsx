@@ -37,7 +37,7 @@ const Home = () => {
             hover:text-[#06b6d4] work-button shadow-md shadow-[#040c16] relative -z-10 '>
             
               <span className='mr-4'>View Work</span>
-                <svg class="animate-bounce w-10 h-10 border-2 border-[#155e75] rounded-full pl-[10px] pt-2 mt-[10px] flex items-center justify-center relative -z-20">
+                <svg class="animate-bounce w-10 h-10 border-2 border-[#155e75] rounded-full pl-[10px] pt-2 mt-[10px] flex items-center justify-center relative">
                       <HiArrowDown className='text-violet-500'/>
                 </svg>
         
