@@ -24,7 +24,8 @@
 .content-div {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position-x: left;
+  background-position-y: top;
   height: 250px;
 }
 

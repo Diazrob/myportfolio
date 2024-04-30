@@ -14,8 +14,8 @@ const About = () => {
         </div>
         <div className='grid grid-cols-1 gap-4 w-full max-w-[1000px] '>
           <div className='pb-4'>
-            <p className='text-3xl text-gray-200  px-4 font-bold'>
-            Currently enrolled as a CIT student at Lethbridge College, I look forward to completing my program in April 2024.
+            <p className='text-2xl text-gray-200  px-4 font-bold'>
+            An I.T. expert with extensive experience in the Software Development Life Cycle, I commenced my I.T. journey as a Business Analyst. Seeking to enhance my capabilities, I pursued a CIT program at Lethbridge College, specializing in full stack development.
             </p>
           </div>
           <div>

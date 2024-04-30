@@ -30,7 +30,7 @@ const Home = () => {
                     loopCount={20}
                     className='text-4xl text-gray-200 font-bold'
           />
-        <p className='text-gray-300 py-4 max-w-[700px] '>I love building excellent web and desktop applications. Focused on further developing my skills to create exceptional and interactive digital experiences. </p>
+        <p className='text-gray-300 py-4 max-w-[700px] '>I love building excellent web and desktop applications. Focused on further developing required skills to create exceptional and interactive digital experiences. </p>
         <div className='max-w-[170px]'>
           <Link to="work" smooth={true} duration={500} className='flex items-center hover:cursor-pointer'>
           <button className='flex group items-center justify-center border border-gray-500 px-4 py-[10px] 
