@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.d6335338.css",
-    "main.js": "/myportfolio/static/js/main.5c41c717.js",
+    "main.css": "/myportfolio/static/css/main.4c9b9039.css",
+    "main.js": "/myportfolio/static/js/main.a6fa801e.js",
     "static/media/rectangle.mp4": "/myportfolio/static/media/rectangle.30befca0a9c79e4e072e.mp4",
     "static/media/phTours.png": "/myportfolio/static/media/phTours.1645e14aef56d4f21da2.png",
-    "static/media/Practicum.png": "/myportfolio/static/media/Practicum.cddbaa27142fb98eef92.png",
     "static/media/mobile.jpg": "/myportfolio/static/media/mobile.8aa9ef12ae5e41d76de7.jpg",
-    "static/media/CV.pdf": "/myportfolio/static/media/CV.4c4294317b769a92bbf8.pdf",
+    "static/media/Practicum.png": "/myportfolio/static/media/Practicum.e01a318554019beabce6.png",
+    "static/media/CV.pdf": "/myportfolio/static/media/CV.e19b3b913457dc66db68.pdf",
     "static/media/react.png": "/myportfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/GameSimulator.png": "/myportfolio/static/media/GameSimulator.f5893c6726163ea47b25.png",
     "static/media/github.png": "/myportfolio/static/media/github.3b9e32903aa89111875d.png",
@@ -18,11 +18,11 @@
     "static/media/Logo.png": "/myportfolio/static/media/Logo.21b1107e071c418967a6.png",
     "static/media/javascript.png": "/myportfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/myportfolio/index.html",
-    "main.d6335338.css.map": "/myportfolio/static/css/main.d6335338.css.map",
-    "main.5c41c717.js.map": "/myportfolio/static/js/main.5c41c717.js.map"
+    "main.4c9b9039.css.map": "/myportfolio/static/css/main.4c9b9039.css.map",
+    "main.a6fa801e.js.map": "/myportfolio/static/js/main.a6fa801e.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6335338.css",
-    "static/js/main.5c41c717.js"
+    "static/css/main.4c9b9039.css",
+    "static/js/main.a6fa801e.js"
   ]
 }
